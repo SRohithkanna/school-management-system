@@ -43,3 +43,6 @@ npm start
 ## Deployment
 - Backend → Render (set MONGO_URI env variable)
 - Frontend → Vercel (set REACT_APP_API_URL to Render URL)
+
+## Deployment link
+[text](https://school-management-system-rosy-chi.vercel.app/)
