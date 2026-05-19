@@ -1,0 +1,49 @@
+.filters { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; padding: 16px 20px; }
+.search-wrap { position: relative; flex: 1; min-width: 200px; }
+.search-icon { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: var(--gray-400); font-size: 1.15rem; }
+.search-input { padding-left: 38px; }
+
+.table-wrapper { padding: 0; overflow: hidden; }
+.students-table { width: 100%; border-collapse: collapse; }
+.students-table th {
+  padding: 14px 18px;
+  text-align: left;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--gray-400);
+  border-bottom: 1.5px solid var(--gray-100);
+  background: var(--gray-50);
+}
+.students-table td { padding: 14px 18px; border-bottom: 1px solid var(--gray-100); font-size: 0.92rem; }
+.students-table tr:last-child td { border-bottom: none; }
+.students-table tr:hover td { background: var(--gray-50); }
+
+.student-name { font-weight: 600; }
+.mono { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; }
+
+.attendance-bar { display: flex; align-items: center; gap: 8px; }
+.bar-fill { height: 6px; border-radius: 999px; min-width: 4px; transition: width 0.3s; }
+.attendance-bar { background: none; }
+.attendance-bar > div { background: var(--gray-200); border-radius: 999px; height: 6px; width: 80px; overflow: hidden; position: relative; }
+.bar-fill { position: absolute; left: 0; top: 0; height: 100%; border-radius: 999px; }
+
+.action-btns { display: flex; gap: 6px; }
+.icon-btn {
+  width: 32px; height: 32px;
+  border-radius: 8px;
+  border: none;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.15s;
+  text-decoration: none;
+}
+.icon-btn.view   { background: var(--sky-light); color: var(--primary); }
+.icon-btn.edit   { background: #FEF9C3; color: #854D0E; }
+.icon-btn.delete { background: #FEE2E2; color: var(--danger); }
+.icon-btn:hover  { transform: scale(1.1); }
+
+.empty-state { text-align: center; padding: 48px; color: var(--gray-400); }
+.empty-state a { color: var(--primary); font-weight: 600; }
+.loading-state { text-align: center; padding: 48px; color: var(--gray-400); }
