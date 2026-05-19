@@ -3,7 +3,7 @@
 A full-stack School Management System built with React, Node.js, Express, and MongoDB.
 
 ## Live Demo
-[https://your-app.vercel.app](https://your-app.vercel.app)
+https://school-management-system-rosy-chi.vercel.app/
 
 ## Tech Stack
 - **Frontend**: React.js, React Router, Recharts, React Icons
