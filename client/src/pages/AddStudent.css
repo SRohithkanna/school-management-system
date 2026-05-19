@@ -1,0 +1,30 @@
+.add-student-page { animation: fadeIn 0.35s ease; }
+
+.student-form { max-width: 820px; }
+
+.form-section { margin-bottom: 28px; padding-bottom: 28px; border-bottom: 1.5px solid var(--gray-100); }
+.form-section:last-of-type { border-bottom: none; }
+.form-section-title { font-size: 1rem; font-weight: 700; color: var(--primary); margin-bottom: 18px; padding-left: 10px; border-left: 3px solid var(--primary); }
+
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.form-row.three { grid-template-columns: 1fr 1fr 1fr; }
+
+.subjects-grid { display: flex; flex-wrap: wrap; gap: 10px; }
+.subject-chip {
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1.5px solid var(--gray-200);
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all 0.18s;
+  color: var(--gray-600);
+}
+.subject-chip:hover   { border-color: var(--primary); color: var(--primary); }
+.subject-chip.selected { background: var(--primary); color: white; border-color: var(--primary); }
+
+.form-actions { display: flex; gap: 12px; justify-content: flex-end; margin-top: 8px; }
+
+@media (max-width: 600px) {
+  .form-row, .form-row.three { grid-template-columns: 1fr; }
+}
