@@ -45,4 +45,4 @@ npm start
 - Frontend → Vercel (set REACT_APP_API_URL to Render URL)
 
 ## Deployment link
-[text](https://school-management-system-rosy-chi.vercel.app/)
+https://school-management-system-rosy-chi.vercel.app/
