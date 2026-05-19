@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { MdPeople, MdPersonAdd, MdDashboard, MdSchool, MdStar } from 'react-icons/md';
+import { MdPeople, MdPersonAdd, MdDashboard, MdStar } from 'react-icons/md';
 import './Home.css';
 
 const features = [
